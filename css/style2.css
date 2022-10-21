@@ -124,13 +124,37 @@ td {
     padding: 10px;
 }
 
+/* .lastrow {
+    display: flex;
+    justify-content: center;
+} */
+
 .orderrow {
     display: flex;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .orderbtn {
-    width: 150px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(58, 58, 60);
+    text-decoration: none;
+    font-size: smaller;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid black;
+    transition: 0.3s;
+}
+
+.orderbtn:hover {
+    background-color: rgb(191, 192, 147);
+    color: white;
 }
 
 footer {
@@ -163,7 +187,7 @@ footer a {
     color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1050px) {
 
     .banner {
         width: 100%;
