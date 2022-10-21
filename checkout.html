@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 | Checkout</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    
+    <div class="col-12 banner">
+        <img src="images/logo.png" alt="Book House">
+    </div>
+
+    <nav class="col-12 navbar">
+
+        <div class="col-4 leftnav">
+            <a href="index.html" class="right-menu">Home</a>
+            <a href="#" class="right-menu">Catalog</a>
+            <a href="checkout.html" class="right-menu">View Cart</a>
+            <a href="#" class="right-menu">View Wishlist</a>
+        </div>
+
+        <div class="col-4 rightnav">
+            <form action="" method="">
+                <input type="search" placeholder="Search title or author" id="password" class="search">
+
+            <select name="genre" id="genre" class="genre">
+                <option disabled selected>Choose genre</option>
+                <option>Romance</option>
+                <option>Horror</option>
+                <option>Dystopian</option>
+                <option>Mystery</option>
+                <option>Science Fiction</option>
+            </select>
+
+            <button class="searchbtn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <div class="col-12 checkoutpage">
+
+        <div class="col-3 checkoutbody">
+
+            <div class="col-12">
+                <div class="col-12"><h1>Checkout Form</h1></div>
+                <div class="col-12"><h2>Shipping/Delivery Information</h2></div>
+            </div>
+            
+            <form action="" method="" class="col-12 info">
+
+                <div class="col-12">
+                    <label for="firstname">Full name:</label>
+                    <input type="text" placeholder="ex. Raffy" id="firstname" class="input-field">
+                </div>
+
+                <div class="col-12">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" placeholder="ex. Guevarra" id="lastname" class="input-field">
+                </div>
+
+                <div class="col-12">
+                    <label for="address">Full Address:</label>
+                    <input type="text" placeholder="ex. 1600 Pennsylvania Avenue NW in Washington, D.C., USA" id="address" class="col-5">
+                </div>
+
+            
+
+            <div class="col-12">
+                <div class="col-12"><h2>Contact Information</h2></div>
+            </div>
+
+            
+
+                <div>
+                    <label for="eaddress">Email Address:</label>
+                    <input type="email" placeholder="ex. RGuevarra@email.com" id="eaddress" class="input-field">
+                </div>
+
+                <div>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="tel" placeholder="ex. 09175556666" id="phonenumber" class="input-field">
+                </div>
+
+            
+
+            <div class="col-12">
+                <div class="col-12"><h2>Payment Method</h2></div>
+            </div>
+
+            <form action="" method="" class="col-12 payinfo">
+                <input type="radio" id="credit" name="pay_method" value="Credit">
+                <label for="Credit">Credit Card</label>
+            
+                <input type="radio" id="cod" name="pay_method" value="COD">
+                <label for="COD">Cash on Delivery</label>
+            
+                <input type="radio" id="gcash" name="pay_method" value="GCash">
+                <label for="GCash">GCash</label>
+            </form>
+
+            </form>
+
+        </div>
+
+        <div class="col-3 bookcart">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>To Kill a Mockingbird</td>
+                        <td>$20</td>
+                    </tr>
+
+                    <tr>
+                        <td>The Great Gatsby</td>
+                        <td>$20</td>
+                    </tr>
+
+                    <tr>
+                        <td>1984</td>
+                        <td>$20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Adventures of Huckleberry Finn</td>
+                        <td>$20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Total:</td>
+                        <td>$80</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="orderrow">
+                            <a href="complete.html">
+                                <img src="images/deliver.png" alt="Order" class="orderbtn">
+                            </a>
+                         </td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <div class="footerdiv">
+    <footer class="col-11">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+        <p>© 2022 Book House Inc.</p>
+    </footer>
+    </div>
+    
+</body>
+</html>
